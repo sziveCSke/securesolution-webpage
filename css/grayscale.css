@@ -27,13 +27,19 @@ h6 {
   letter-spacing: 1px;
   text-transform: uppercase; }
 
+h4 {margin: 0 0 10px;}
+h5 {
+margin: 50px 0 20px 0;
+  text-transform: none;
+  font-weight: 400
+}
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   margin: 0 0 25px; }
   @media (min-width: 768px) {
     p {
-      font-size: 12px;
+      font-size: 16px;
       line-height: 1.6;
       margin: 0 0 35px; } }
 
@@ -41,7 +47,8 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #EC2027; }
+  color: #EC2027;
+font-size: 18px; }
   a:focus, a:hover {
     text-decoration: none;
     color: #fff; }
@@ -51,7 +58,7 @@ a {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: EC2027; }
+  background-color: #20272D; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
@@ -81,15 +88,15 @@ a {
       transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
       letter-spacing: 1px;
       border-bottom: none;
-      background: transparent; }
+      background: #20272D; }
       #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        background: 20272D; }
+        background: #20272D; }
       #mainNav .nav-link.active {
         outline: none;
-        background-color: rgba(236, 32, 39, 0.3); }
+        background-color: #676767; }
         #mainNav .nav-link.active:hover {
           color: white; } }
 
@@ -97,7 +104,7 @@ a {
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
+  padding: 150px 0;
   text-align: center;
   color: white;
   background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
@@ -116,7 +123,7 @@ a {
   @media (min-width: 768px) {
     .masthead {
       height: 100%;
-      padding: 0; }
+      }
       .masthead .intro-body .brand-heading {
         font-size: 28px; }
       .masthead .intro-body .intro-text {
@@ -146,17 +153,21 @@ a {
 
 .services-section {
   color: white;
-  background: url("../img/services-bg.jpg") no-repeat center center scroll;
   background-color: #20272D;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
+.photo {
+  width: 150px;
+  margin-right: 20px;
+}
+
 
 .btn {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -174,14 +185,23 @@ a {
     background-color: transparent; }
 
   .column {
+    margin: 100px 10px 40px 10px;
     column-count: 4;
     column-gap: 40px;
     column-rule-style: solid;
     column-rule-width: 1px;
     column-rule-color: #676767;
     column-span: all;
-    background-color: transparent;  }  
+    background-color: transparent;  }
 
+.column p {
+  margin: 0px;
+}
+
+.media {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 ul.banner-social-buttons {
   margin-top: 0; }
   @media (max-width: 1199px) {
