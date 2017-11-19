@@ -28,12 +28,12 @@ h6 {
   text-transform: uppercase; }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   margin: 0 0 25px; }
   @media (min-width: 768px) {
     p {
-      font-size: 14px;
+      font-size: 12px;
       line-height: 1.6;
       margin: 0 0 35px; } }
 
@@ -153,16 +153,6 @@ a {
   -o-background-size: cover;
   background-size: cover; }
 
-#map {
-  width: 100%;
-  height: 300px; }
-
-@media (min-width: 992px) {
-  .content-section {
-    padding-top: 200px;
-    padding-bottom: 200px; }
-  #map {
-    height: 350px; } }
 
 .btn {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -182,6 +172,15 @@ a {
     border: 1px solid black;
     outline: none;
     background-color: transparent; }
+
+  .column {
+    column-count: 4;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: #676767;
+    column-span: all;
+    background-color: transparent;  }  
 
 ul.banner-social-buttons {
   margin-top: 0; }
