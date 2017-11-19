@@ -29,16 +29,17 @@ h6 {
 
 h4 {margin: 0 0 10px;}
 h5 {
+margin: 50px 0 20px 0;
   text-transform: none;
-  font-weight: 400;
+  font-weight: 400
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   margin: 0 0 25px; }
   @media (min-width: 768px) {
     p {
-      font-size: 12px;
+      font-size: 16px;
       line-height: 1.6;
       margin: 0 0 35px; } }
 
@@ -47,7 +48,7 @@ a {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: #EC2027;
-font-size: 14px; }
+font-size: 18px; }
   a:focus, a:hover {
     text-decoration: none;
     color: #fff; }
@@ -103,7 +104,7 @@ font-size: 14px; }
   display: table;
   width: 100%;
   height: auto;
-  padding: 200px 0;
+  padding: 150px 0;
   text-align: center;
   color: white;
   background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
@@ -122,7 +123,7 @@ font-size: 14px; }
   @media (min-width: 768px) {
     .masthead {
       height: 100%;
-      padding: 0; }
+      }
       .masthead .intro-body .brand-heading {
         font-size: 28px; }
       .masthead .intro-body .intro-text {
@@ -166,7 +167,7 @@ font-size: 14px; }
 
 .btn {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -184,6 +185,7 @@ font-size: 14px; }
     background-color: transparent; }
 
   .column {
+    margin: 100px 10px 40px 10px;
     column-count: 4;
     column-gap: 40px;
     column-rule-style: solid;
@@ -192,6 +194,14 @@ font-size: 14px; }
     column-span: all;
     background-color: transparent;  }
 
+.column p {
+  margin: 0px;
+}
+
+.media {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 ul.banner-social-buttons {
   margin-top: 0; }
   @media (max-width: 1199px) {
